@@ -33,7 +33,7 @@ import com.esri.ges.util.Validator;
 
 enum RabbitMQExchangeType
 {
-  direct, fanout
+  direct, fanout, headers, topic
 }
 
 public class RabbitMQExchange implements Validatable
